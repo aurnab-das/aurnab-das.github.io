@@ -3,13 +3,19 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 
-const RESOURCES = {"assets/AssetManifest.json": "e48960098c4d3759dc104e26c5656ec2",
-"assets/AssetManifest.smcbin": "ddcbe88f84e9295fa11f323493d7db09",
+const RESOURCES = {"assets/AssetManifest.json": "be10238aea6311aee7e5bba334747bdf",
+"assets/AssetManifest.smcbin": "16d3309eee5e9fe7944d70777d6f5483",
 "assets/assets/svg/appLogo.png": "66e9776998dda9603d8bd68b0bb1d792",
 "assets/assets/svg/appLogo_2.png": "7df7d2690ea72b34c624b25dfaec2644",
+"assets/assets/svg/discord-filled.svg": "147f41c95f6ad7574168c3d3a462c455",
+"assets/assets/svg/discord-outline-2.svg": "85ec8e3561f34f0feb7ce05e6417e515",
+"assets/assets/svg/discord-outline-3.svg": "0dc5a48e0dd248efef0ad9859003c50e",
+"assets/assets/svg/discord-outline.svg": "2224a10dc391067cf1a335e58a11da0d",
 "assets/assets/svg/externalLink.svg": "1790fffa6c0b0eb87d7e90470cc80b86",
 "assets/assets/svg/folder.svg": "46a545a4289ba140f5b90613ceccd879",
+"assets/assets/svg/github-2.svg": "2c96808942a6678244a9daef6f0da2b1",
 "assets/assets/svg/github.svg": "c0e94df08ad3d521af33fa4ad69e2162",
+"assets/assets/svg/gitlab.svg": "5b12b58eef48e6d3368327ccf7ab96a4",
 "assets/assets/svg/instagram.svg": "0f51da178eff1d87826480d0e5db970b",
 "assets/assets/svg/linkedIn.svg": "c408ef7fbd143d9052cd195819076f90",
 "assets/assets/svg/profilePic.png": "d24cec187702f7024ee83b598a1ae4fb",
@@ -31,11 +37,10 @@ const RESOURCES = {"assets/AssetManifest.json": "e48960098c4d3759dc104e26c5656ec
 "canvaskit/skwasm.wasm": "6711032e17bf49924b2b001cef0d3ea3",
 "canvaskit/skwasm.worker.js": "19659053a277272607529ef87acf9d8a",
 "favicon.png": "66e9776998dda9603d8bd68b0bb1d792",
-"favicon_1.png": "d7b92395a6ec502e8fa77a8c45a10671",
 "flutter.js": "6b515e434cea20006b3ef1726d2c8894",
-"index.html": "7a284a2be27740bd35d84b25abc19e02",
-"/": "7a284a2be27740bd35d84b25abc19e02",
-"main.dart.js": "7f0661e5eed518966efdad00d41a115e",
+"index.html": "58876ad8e049413f2f3198a46e2b3d3b",
+"/": "58876ad8e049413f2f3198a46e2b3d3b",
+"main.dart.js": "dd2e7080f67ac0b37c3d643688733f8d",
 "version.json": "009c9e65172e010890f7f65fde438006"};
 // The application shell files that are downloaded before a service worker can
 // start.
