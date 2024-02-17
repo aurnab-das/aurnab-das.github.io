@@ -6,7 +6,6 @@ const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {"assets/AssetManifest.bin": "d04e8cfe873426e135c993d22f6ed381",
 "assets/AssetManifest.bin.json": "b529f4f736ecf9f5ab86f527ff5f3cf1",
 "assets/AssetManifest.json": "be10238aea6311aee7e5bba334747bdf",
-"assets/AssetManifest.smcbin": "16d3309eee5e9fe7944d70777d6f5483",
 "assets/assets/svg/appLogo.png": "66e9776998dda9603d8bd68b0bb1d792",
 "assets/assets/svg/appLogo_2.png": "7df7d2690ea72b34c624b25dfaec2644",
 "assets/assets/svg/discord-filled.svg": "147f41c95f6ad7574168c3d3a462c455",
@@ -40,9 +39,9 @@ const RESOURCES = {"assets/AssetManifest.bin": "d04e8cfe873426e135c993d22f6ed381
 "canvaskit/skwasm.worker.js": "bfb704a6c714a75da9ef320991e88b03",
 "favicon.png": "66e9776998dda9603d8bd68b0bb1d792",
 "flutter.js": "59a12ab9d00ae8f8096fffc417b6e84f",
-"index.html": "43fcdea26bffedd61c84c1817737aee9",
-"/": "43fcdea26bffedd61c84c1817737aee9",
-"main.dart.js": "b2a2b821546d86de591720e2183b7c6e",
+"index.html": "831717ecb9bcce0e4de631d0316f2a6e",
+"/": "831717ecb9bcce0e4de631d0316f2a6e",
+"main.dart.js": "06208deb748e96f5956b70b6f9c74378",
 "version.json": "009c9e65172e010890f7f65fde438006"};
 // The application shell files that are downloaded before a service worker can
 // start.
