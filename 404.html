@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <base href="/">
+
+    <meta charset="UTF-8">
+    <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+    <meta name="description"
+          content="Aurnab Das – Senior Software Engineer portfolio, projects, and experience. Senior Software Engineer | Senior Mobile Application Developer | Script Automation | Solution Architect">
+
+    <!-- iOS meta tags & icons -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Aurnab Das – Senior Software Engineer">
+    <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="favicon.png"/>
+
+    <title>Aurnab Das – Senior Software Engineer</title>
+    <link rel="manifest" href="manifest.json">
+
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        html, body {
+          height: 100%;
+          background-color: #0B0F1A;
+        }
+
+        #flutter-loader {
+          position: fixed;
+          inset: 0;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          gap: 24px;
+          background-color: #0B0F1A;
+          z-index: 9999;
+          transition: opacity 0.4s ease;
+        }
+
+        #flutter-loader.hidden {
+          opacity: 0;
+          pointer-events: none;
+        }
+
+        .loader-ring {
+          width: 72px;
+          height: 72px;
+          border-radius: 50%;
+          background: conic-gradient(
+            from 0deg,
+            #0A84FF,
+            #6C47FF,
+            #00D4AA,
+            transparent 75%
+          );
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          animation: spin 1.2s linear infinite;
+        }
+
+        .loader-ring-inner {
+          width: 62px;
+          height: 62px;
+          border-radius: 50%;
+          background-color: #0B0F1A;
+        }
+
+        .loader-text {
+          font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+          font-size: 13px;
+          font-weight: 500;
+          letter-spacing: 1.5px;
+          color: #6B7A99;
+          text-transform: uppercase;
+          animation: pulse 1.2s ease-in-out infinite;
+        }
+
+        @keyframes spin {
+          to { transform: rotate(360deg); }
+        }
+
+        @keyframes pulse {
+          0%, 100% { opacity: 0.4; }
+          50%       { opacity: 1;   }
+        }
+    </style>
+</head>
+<body>
+
+<div id="flutter-loader">
+    <div class="loader-ring">
+        <div class="loader-ring-inner"></div>
+    </div>
+    <span class="loader-text">Loading…</span>
+</div>
+
+<script>
+    window.addEventListener('flutter-first-frame', function () {
+      var loader = document.getElementById('flutter-loader');
+      if (loader) {
+        loader.classList.add('hidden');
+        setTimeout(function () { loader.remove(); }, 400);
+      }
+    });
+</script>
+
+<script src="flutter_bootstrap.js" async></script>
+</body>
+</html>
