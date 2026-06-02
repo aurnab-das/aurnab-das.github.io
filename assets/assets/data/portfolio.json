@@ -1,0 +1,404 @@
+{
+  "profile": {
+    "name": "Aurnab Das",
+    "title": "Senior Software Engineer",
+    "tagline": "Crafting high-performance mobile experiences with scalable architecture",
+    "summary": "6+ years of experience building production-grade Flutter applications for Android & iOS, specializing in performance optimization, automation, and scalable system design.",
+    "email": "das.aurnab@gmail.com",
+    "location": "Dhaka, Bangladesh",
+    "resume_url": "/assets/resume.pdf",
+    "message_url": "",
+    "socials": {
+      "github": "https://github.com/adsaurnab",
+      "linkedin": "https://linkedin.com/in/aurnab-das",
+      "portfolio": "https://aurnab-das.github.io"
+    }
+  },
+  "theme": {
+    "default": "auto",
+    "light_mode_start": "06:00",
+    "dark_mode_start": "18:00"
+  },
+  "fixedDesignPreset": "obsidian",
+  "how_i_work": [
+    {
+      "icon": "architecture_rounded",
+      "title": "Clean Architecture",
+      "desc": "I believe in writing code that is easy to read, test, and maintain long-term.",
+      "colorIdx": 0
+    },
+    {
+      "icon": "speed_rounded",
+      "title": "Performance First",
+      "desc": "Every millisecond matters. I optimize apps for speed, responsiveness, and efficiency.",
+      "colorIdx": 1
+    },
+    {
+      "icon": "people_rounded",
+      "title": "User-Centric",
+      "desc": "I design with real users in mind — intuitive interfaces that solve real problems.",
+      "colorIdx": 2
+    },
+    {
+      "icon": "auto_awesome_rounded",
+      "title": "Continuous Learning",
+      "desc": "Technology evolves fast. I stay ahead by exploring new tools and patterns.",
+      "colorIdx": 3
+    }
+  ],
+  "highlights": [
+    "6+ Years Experience",
+    "20+ Production Apps Delivered",
+    "1M+ Users Impacted",
+    "Performance Optimization Specialist",
+    "Automation & Tooling Expert"
+  ],
+  "skills": [
+    {
+      "category": "Mobile Development",
+      "items": [
+        {
+          "name": "Flutter",
+          "level": "Expert"
+        },
+        {
+          "name": "Dart",
+          "level": "Expert"
+        },
+        {
+          "name": "Kotlin",
+          "level": "Intermediate"
+        },
+        {
+          "name": "Swift",
+          "level": "Intermediate"
+        }
+      ]
+    },
+    {
+      "category": "Backend & Integration",
+      "items": [
+        {
+          "name": "Firebase",
+          "level": "Advanced"
+        },
+        {
+          "name": "REST APIs",
+          "level": "Advanced"
+        },
+        {
+          "name": "Laravel",
+          "level": "Intermediate"
+        }
+      ]
+    },
+    {
+      "category": "Automation & Scripting",
+      "items": [
+        {
+          "name": "Python",
+          "level": "Advanced"
+        },
+        {
+          "name": "Selenium",
+          "level": "Advanced"
+        },
+        {
+          "name": "Web Scraping",
+          "level": "Advanced"
+        },
+        {
+          "name": "Javascript",
+          "level": "Intermediate"
+        },
+        {
+          "name": "CLI Tools",
+          "level": "Intermediate"
+        }
+      ]
+    },
+    {
+      "category": "Web & Extensions",
+      "items": [
+        {
+          "name": "JavaScript",
+          "level": "Advanced"
+        },
+        {
+          "name": "Chrome Extensions",
+          "level": "Advanced"
+        }
+      ]
+    },
+    {
+      "category": "Tools & DevOps",
+      "items": [
+        {
+          "name": "Git",
+          "level": "Advanced"
+        },
+        {
+          "name": "GitHub Actions",
+          "level": "Intermediate"
+        },
+        {
+          "name": "Docker",
+          "level": "Basic"
+        }
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "fintrack",
+      "title": "FinTrack – Personal Finance App",
+      "short_description": "Cross-platform app for managing personal finances with real-time analytics.",
+      "tech_stack": [
+        "Flutter",
+        "Firebase",
+        "REST API"
+      ],
+      "impact": [
+        "150K+ active users",
+        "Reduced load time by 45%",
+        "Real-time multi-device sync"
+      ],
+      "thumbnail": "https://cdn.pixabay.com/photo/2015/04/19/08/32/flower-729510_1280.jpg",
+      "featured": true,
+      "details": {
+        "overview": "A mobile-first finance management solution designed for scalability and real-time syncing.",
+        "problem": "Users lacked a simple yet powerful way to track expenses across devices with real-time updates.",
+        "solution": "Implemented Flutter architecture with optimized state management and Firebase sync.",
+        "architecture": [
+          "MVVM pattern",
+          "Repository layer",
+          "Real-time sync engine"
+        ],
+        "features": [
+          "Expense tracking",
+          "Analytics dashboard",
+          "Cloud sync"
+        ],
+        "challenges": [
+          "Handling real-time data conflicts",
+          "Optimizing performance for large datasets"
+        ],
+        "results": [
+          "45% faster load time",
+          "25% increase in retention"
+        ],
+        "media": [],
+        "links": {
+          "github": "https://github.com/adsaurnab",
+          "live": "https://fintrack.app"
+        }
+      }
+    },
+    {
+      "id": "autotasker",
+      "title": "AutoTasker – Automation Suite",
+      "short_description": "Python-based automation tools for repetitive business workflows.",
+      "tech_stack": [
+        "Python",
+        "Selenium",
+        "APIs"
+      ],
+      "impact": [
+        "Reduced manual work by 70%",
+        "Used by multiple organizations"
+      ],
+      "thumbnail": "https://static.vecteezy.com/system/resources/thumbnails/060/843/811/small/close-up-of-raindrops-on-leaves-hd-background-luxury-hd-wallpaper-image-trendy-background-illustration-free-photo.jpg",
+      "featured": true,
+      "details": {
+        "overview": "Automation suite for business workflows.",
+        "problem": "Manual repetitive tasks slowed operations.",
+        "solution": "Built modular automation scripts using Python.",
+        "architecture": [
+          "Script-based modular system",
+          "API integrations"
+        ],
+        "features": [
+          "Automated reporting",
+          "Web scraping",
+          "Task scheduling"
+        ],
+        "challenges": [
+          "Handling dynamic web elements",
+          "Ensuring reliability"
+        ],
+        "results": [
+          "70% reduction in manual effort"
+        ],
+        "media": [],
+        "links": {
+          "github": "https://github.com/adsaurnab"
+        }
+      }
+    },
+    {
+      "id": "extendify",
+      "title": "Extendify – Chrome Extension Toolkit",
+      "short_description": "Productivity browser extension with multi-tab management and automation.",
+      "tech_stack": [
+        "JavaScript",
+        "Chrome Extensions",
+        "APIs"
+      ],
+      "impact": [
+        "10K+ installs",
+        "4.8 star rating",
+        "Saves 2hrs/day for power users"
+      ],
+      "thumbnail": "",
+      "featured": true,
+      "details": {
+        "overview": "A powerful Chrome extension for power users focused on productivity.",
+        "problem": "Browser tab management and repetitive actions slow down daily workflows.",
+        "solution": "Built a feature-rich extension with tab grouping, macros, and API integrations.",
+        "architecture": [
+          "Manifest V3",
+          "Background service workers",
+          "Content scripts"
+        ],
+        "features": [
+          "Tab grouping & session save",
+          "Macro recording",
+          "Custom shortcuts"
+        ],
+        "challenges": [
+          "MV3 service worker lifecycle limitations",
+          "Cross-origin permission handling"
+        ],
+        "results": [
+          "10K+ installs in 3 months",
+          "4.8 average rating"
+        ],
+        "media": [],
+        "links": {
+          "live": "https://chrome.google.com/webstore/extendify"
+        }
+      }
+    },
+    {
+      "id": "healthpulse",
+      "title": "HealthPulse – Wellness Tracker",
+      "short_description": "Flutter health app with wearable integrations and AI insights.",
+      "tech_stack": [
+        "Flutter",
+        "HealthKit",
+        "Python"
+      ],
+      "impact": [
+        "50K+ downloads",
+        "Integrated with 5 wearable brands",
+        "AI-powered health insights"
+      ],
+      "thumbnail": "",
+      "featured": true,
+      "details": {
+        "overview": "Cross-platform wellness app connecting wearables with intelligent dashboards.",
+        "problem": "Fragmented health data across multiple wearable platforms.",
+        "solution": "Unified data layer with intelligent health insights powered by Python ML models.",
+        "architecture": [
+          "Clean Architecture",
+          "BLoC + GetX hybrid",
+          "ML inference pipeline"
+        ],
+        "features": [
+          "Wearable sync",
+          "AI recommendations",
+          "Sleep analysis"
+        ],
+        "challenges": [
+          "Platform-specific health APIs",
+          "Real-time BLE synchronization"
+        ],
+        "results": [
+          "50K downloads in 6 months"
+        ],
+        "media": [],
+        "links": {
+          "github": "https://github.com/adsaurnab"
+        }
+      }
+    },
+    {
+      "id": "shiply",
+      "title": "Shiply – Logistics Platform",
+      "short_description": "Real-time shipment tracking app with driver and customer portals.",
+      "tech_stack": [
+        "Flutter",
+        "Firebase",
+        "Google Maps"
+      ],
+      "impact": [
+        "Used by 3 logistics companies",
+        "Real-time GPS tracking",
+        "30% delivery efficiency improvement"
+      ],
+      "thumbnail": "",
+      "featured": false,
+      "details": {
+        "overview": "End-to-end logistics platform with real-time tracking and multi-role access.",
+        "problem": "Logistics companies lacked real-time visibility and customer communication.",
+        "solution": "Built dual-portal app with live GPS, push notifications, and route optimization.",
+        "architecture": [
+          "Multi-role architecture",
+          "Firebase Realtime DB",
+          "Google Maps SDK"
+        ],
+        "features": [
+          "Live GPS tracking",
+          "Driver route optimization",
+          "Customer notifications"
+        ],
+        "challenges": [
+          "Battery-efficient background location",
+          "Offline mode for drivers"
+        ],
+        "results": [
+          "30% delivery efficiency improvement"
+        ],
+        "media": [],
+        "links": {
+          "github": "https://github.com/adsaurnab"
+        }
+      }
+    }
+  ],
+  "experience": [
+    {
+      "company": "CodT Studio",
+      "role": "Junior Flutter Developer",
+      "duration": "2018 - 2020",
+      "achievements": [
+        "Developed first Flutter production apps",
+        "Learned REST API integration patterns",
+        "Contributed to open source Flutter packages"
+      ]
+    }
+  ],
+  "about": {
+    "description": "I specialize in building scalable, high-performance mobile applications using Flutter. With over 6 years of hands-on experience, I focus on designing systems that are efficient, maintainable, and impactful. Beyond mobile, I develop automation tools using Python to streamline workflows, and I build Chrome extensions that boost developer productivity. I thrive at the intersection of elegant engineering and real-world impact."
+  },
+  "testimonials": [
+    {
+      "name": "Rahim Uddin",
+      "role": "CTO, TechNova",
+      "feedback": "Arif consistently delivers high-quality solutions and brings strong architectural thinking to every project. He is one of the most reliable engineers I have worked with."
+    },
+    {
+      "name": "Sara Malik",
+      "role": "Product Manager, SoftEdge",
+      "feedback": "Working with Arif was a pleasure. He translates complex requirements into clean, scalable code and always meets deadlines."
+    }
+  ],
+  "contact": {
+    "form_enabled": true,
+    "fields": [
+      "name",
+      "email",
+      "message"
+    ]
+  }
+}
